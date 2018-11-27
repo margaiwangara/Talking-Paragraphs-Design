@@ -1,0 +1,75 @@
+$theme: #B44D09;
+
+body{
+    color: #fff;
+}
+
+.navbar{
+    border-bottom: solid $theme 3px !important;
+}
+
+#posts-display{
+    .posts-display-inner{
+        padding-top: 90px;
+    }
+}
+
+#register-form-section{
+    background: url('../img/bg-image-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    .dark-overlay{
+        background:rgba(0, 0, 0, 0.8);
+        min-height: 700px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .register-form-section-inner{
+        padding-top: 110px;
+
+        .fa{
+            padding: 10px;
+            border-radius: 10px;
+            background: #B44D09;
+            color: #fff;
+        }
+    }
+
+}
+
+#login-form-section{
+    background: url('../img/bg-image-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    .dark-overlay{
+        background:rgba(0, 0, 0, 0.8);
+        min-height: 700px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .login-form-section-inner{
+        padding-top: 110px;
+
+        .fa{
+            padding: 10px;
+            border-radius: 10px;
+            background: #B44D09;
+            color: #fff;
+        }
+    }
+
+}
+
+#create-form-section{
+    .create-form-section-inner{
+        padding-top: 110px;
+    }
+}
