@@ -54,6 +54,25 @@ body {
 
 #display-post .display-post-inner {
   padding-top: 110px; }
+  #display-post .display-post-inner .post-images img {
+    transition: transform .2s; }
+  #display-post .display-post-inner .post-images img:hover {
+    transform: scale(1.5); }
+  #display-post .display-post-inner .post-images a {
+    text-decoration: none; }
 
 #related-posts .related-posts-inner a {
   text-decoration: none; }
+
+.dark-image-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1050;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.7);
+  display: none; }
+  .dark-image-overlay .dark-image-overlay-inner {
+    padding-top: 110px; }

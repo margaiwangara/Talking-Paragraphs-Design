@@ -77,6 +77,18 @@ body{
 #display-post{
     .display-post-inner{
         padding-top: 110px;
+
+        .post-images{
+            img{
+                transition: transform .2s;
+            }
+            img:hover{
+                transform: scale(1.5);
+            }
+            a{
+                text-decoration: none;
+            }
+        }
     }
     
 }
@@ -88,3 +100,26 @@ body{
         }
     }
 }
+
+.dark-image-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1050;
+    overflow: hidden;
+    background:rgba(0, 0, 0, 0.7);
+    display: none;
+    .dark-image-overlay-inner{
+        padding-top: 110px;
+    }
+    
+}
+
+
+// .modal-open .modal {
+//     overflow-x: hidden;
+//     overflow-y: auto;
+// }
+// .modal {
